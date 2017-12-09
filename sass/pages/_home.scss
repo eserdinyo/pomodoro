@@ -1,5 +1,65 @@
-/*
-.sections {
+.top-bar {
+    position: relative;
+    top: 3.5rem;
+    background-color: $color-blue;
+    width: 60rem;
+    border-radius: 3px;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
-*/
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+
+    &__item {
+        
+        color: $color-open-white;
+        font-weight: 300;
+        font-size: 1.6rem;
+        padding: 1rem 5.5rem;
+        transition: all .3s;
+        
+        &:not(:last-child) {
+            border-right: 1px solid $color-open-white;
+        }
+
+        &:focus, &:hover {            
+            color: rgb(223, 219, 219);
+            border-bottom: 2px solid $color-open-white;
+            text-decoration: none;
+        }
+    }
+}
+
+.timer {
+    height: 35rem;
+    width: 35rem;
+    border-radius: 50%;
+    background-color: $color-blue;
+    color: $color-open-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, .3);
+
+    &__content {
+        font-size: 10rem;
+    }
+}
+
+.bottom-bar {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
