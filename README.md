@@ -1,3 +1,3 @@
-# webkit
+# Pomodoro App
 
-Starter files for web projects.
+Simple pomodoro app for education.
