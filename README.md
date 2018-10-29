@@ -2,6 +2,6 @@
 
 Simple pomodoro app for education.
 
-<a target="_blank" href="https://eserm.github.io/pomodoro/">Demo</a>
+<a target="_blank" href="https://eserdinyo.github.io/pomodoro//">Demo</a>
 
-![Homepage](https://i.hizliresim.com/XEzr3R.png)
+![Main](https://i.hizliresim.com/0zvNbW.png)
